@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WebVideoArchiving</string>
+
+    <string name="cancel">취소</string>
+    <string name="retry">다시 시도</string>
+
+    <string name="tab_browser">브라우저</string>
+    <string name="tab_video">동영상</string>
+
+    <string name="fab_behavior">blog.cmcmcmcm.webvideoarchiving.view.behavior.FABBehavior</string>
+</resources>

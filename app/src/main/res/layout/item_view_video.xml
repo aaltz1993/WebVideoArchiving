@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+    <blog.cmcmcmcm.webvideoarchiving.view.exoplayer.NPlayerView
+        android:id="@+id/holderPlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </blog.cmcmcmcm.webvideoarchiving.view.exoplayer.NPlayerView>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flexBoxLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/holderPlayerView">
+
+    </com.google.android.flexbox.FlexboxLayout>
+</android.support.constraint.ConstraintLayout>
